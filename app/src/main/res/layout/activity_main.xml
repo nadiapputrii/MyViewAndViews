@@ -25,6 +25,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                style="@style/TextContent.Small.White"
                 android:padding="8dp"
                 android:text="@string/_6_photos"
                 android:gravity="center_vertical"
@@ -41,6 +42,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/TextContent.Black"
             android:textSize="32sp"
             android:text="@string/_735"
             android:layout_marginLeft="16dp"
@@ -52,6 +54,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/TextContent.Subtitle"
             android:text="@string/stock_hanya_5_buah"
             android:textSize="12sp"
             android:layout_marginLeft="16dp"
@@ -61,6 +64,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/TextContent"
             android:text="@string/content_text"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
@@ -71,6 +75,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/TextContent.Subtitle"
             android:text="@string/spesifikasi"
             android:textSize="12sp"
             android:layout_marginLeft="16dp"
@@ -89,12 +94,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    style="@style/TextSpec.Field"
                     android:textSize="14sp"
                     android:layout_marginEnd="16dp"
                     android:text="@string/display"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    style="@style/TextSpec.Value"
                     android:textSize="14sp"
                     android:layout_weight="1"
                     android:text="@string/content_specs_display"
@@ -107,12 +114,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    style="@style/TextSpec.Field"
                     android:textSize="14sp"
                     android:layout_marginEnd="16dp"
                     android:text="@string/size"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    style="@style/TextSpec.Value"
                     android:textSize="14sp"
                     android:layout_weight="1"
                     android:text="@string/content_specs_size"
@@ -125,12 +134,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    style="@style/TextSpec.Field"
                     android:textSize="14sp"
                     android:layout_marginEnd="16dp"
                     android:text="@string/battery"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    style="@style/TextSpec.Value"
                     android:textSize="14sp"
                     android:layout_weight="1"
                     android:text="@string/content_specs_battery"
@@ -141,6 +152,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/TextContent.Subtitle"
             android:text="@string/dijual_oleh"
             android:textSize="12sp"
             android:layout_marginLeft="16dp"
@@ -162,6 +174,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                style="@style/TextContent"
                 android:layout_toEndOf="@id/profile_image"
                 android:text="@string/narenda_wicaksono"
                 android:textColor="@android:color/black"
@@ -171,6 +184,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/beli"
+            style="@style/ButtonGeneral"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"/>
